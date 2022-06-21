@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/fraunces-v22-latin-regular.woff2') format('woff2'),
+    url('../fonts/fraunces-v22-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''), url('../fonts/mulish-v11-latin-regular.woff2') format('woff2'),
+    url('../fonts/mulish-v11-latin-regular.woff') format('woff');
+}

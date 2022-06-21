@@ -1,0 +1,71 @@
+.intro {
+  &__container {
+    border-radius: 20px;
+    background-image: url(../img/intro-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 1063px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 163px;
+    padding-bottom: 130px;
+  }
+
+  &__title {
+    width: 1186px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 130px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: $secondary-color;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  &__title::before {
+    content: 'UIUXer';
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 130px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: $main-color;
+    position: absolute;
+    z-index: 1;
+    left: 845px;
+    top: 127px;
+  }
+
+  &__text {
+    width: 500px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: $secondary-color;
+    margin-bottom: 25px;
+  }
+
+  &__wrapper-link {
+    margin-bottom: 60px;
+  }
+
+  &__link-blue {
+  }
+
+  &__link-img {
+  }
+
+  &__img {
+  }
+}

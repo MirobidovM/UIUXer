@@ -16,9 +16,9 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: "Public Sans", "DM Serif Display", sans-serif;
-  font-size: 15px;
-  line-height: 28px;
+  font-family: 'Mulish', 'Fraunces', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 main {
@@ -41,6 +41,9 @@ ol {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.global-link {
 }
 
 // SCROLLBAR STYLE
