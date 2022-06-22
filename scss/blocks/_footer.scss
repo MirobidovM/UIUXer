@@ -54,6 +54,7 @@
     padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__list {
@@ -86,14 +87,14 @@
   }
 
   &__content-write-now {
+    margin: 0;
+    padding: 0;
     width: 819px;
     padding-top: 26px;
     padding-bottom: 26px;
     background-color: $white-color;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
   }
 
   &__write-now-text {
@@ -120,9 +121,8 @@
     border: 1px solid $secondary-color;
     border-radius: 10px;
     padding: 10px 21px 10px 57px;
-    position: relative;
     transition: 0.3s ease;
-    border: 1px solid transparent;
+    position: relative;
 
     &:hover {
       color: $main-color;
@@ -169,6 +169,7 @@
     text-align: center;
     letter-spacing: 0.4px;
     color: $secondary-color;
+    cursor: pointer;
   }
 }
 
