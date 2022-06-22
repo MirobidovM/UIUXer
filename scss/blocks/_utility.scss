@@ -144,6 +144,8 @@
   }
 
   .utility__text {
+    margin-left: auto;
+    margin-right: auto;
     width: 280px;
     font-size: 10px;
     line-height: 16px;
@@ -155,6 +157,10 @@
   }
 
   .utility__item:first-child {
+    margin-bottom: 20px;
+  }
+
+  .utility__item:nth-child(2) {
     margin-bottom: 20px;
   }
 
