@@ -19,6 +19,7 @@ body {
   font-family: 'Mulish', 'Fraunces', sans-serif;
   font-size: 20px;
   line-height: 30px;
+  background-color: $white-color;
 }
 
 main {
@@ -44,6 +45,29 @@ ol {
 }
 
 .global-link {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: $white-color;
+  padding: 21px 71px;
+  background: $main-color;
+  border: 1px solid $main-color;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.global-link:hover {
+  background-color: $white-color;
+  border: 1px solid $main-color;
+  color: $main-color;
+}
+
+.global-link:active {
+  opacity: 0.5;
 }
 
 // SCROLLBAR STYLE

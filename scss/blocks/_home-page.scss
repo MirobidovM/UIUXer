@@ -1,0 +1,62 @@
+.home-page {
+  margin-bottom: 110px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: $secondary-color;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #525665;
+    margin-bottom: 69px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item-link {
+    transition: 0.3s ease;
+  }
+
+  &__item-link:hover {
+    opacity: 0.7;
+  }
+
+  &__item-link:active {
+    opacity: 0.4;
+  }
+
+  &__item-title {
+    margin-top: 40px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #242f65;
+  }
+}

@@ -1,4 +1,6 @@
 .intro {
+  margin-bottom: 120px;
+
   &__container {
     border-radius: 20px;
     background-image: url(../img/intro-bg.svg);
@@ -40,7 +42,7 @@
     position: absolute;
     z-index: 1;
     left: 845px;
-    top: 127px;
+    top: 130px;
   }
 
   &__text {
@@ -58,14 +60,35 @@
 
   &__wrapper-link {
     margin-bottom: 60px;
+    display: flex;
   }
 
   &__link-blue {
+    margin-left: 10px;
+    background-color: #7390f9;
+    border: 1px solid #7390f9;
+    border-radius: 10px;
+  }
+
+  &__link-blue:hover {
+    background-color: #fff;
+    border: 1px solid #7390f9;
+    color: #7390f9;
+  }
+
+  &__link-blue:active {
+    opacity: 0.5;
   }
 
   &__link-img {
+    transition: 0.3s ease;
   }
 
-  &__img {
+  &__link-img:hover {
+    opacity: 0.7;
+  }
+
+  &__link-img:active {
+    opacity: 0.4;
   }
 }
