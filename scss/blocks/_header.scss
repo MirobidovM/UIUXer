@@ -83,11 +83,38 @@
   }
 }
 
+@media screen and (max-width: 1340px) {
+  .header__container {
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .header__logo-img {
+    width: 166px;
+    height: 41px;
+  }
+
+  .header__nav-item-link {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .header__nav-item {
+    margin-right: 25px;
+
+    &:first-child {
+      margin-right: 32px;
+    }
+
+    &:nth-child(3) {
+      margin-right: 32px;
+    }
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -98,14 +125,8 @@
   }
 
   .header__nav-item-link {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    letter-spacing: 0.4px;
-    color: #222222;
-    transition: 0.3s ease;
   }
 
   .header__nav-item {
