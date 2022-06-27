@@ -2,6 +2,7 @@
   background-image: url(../img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 
   &__container {
     padding-top: 85px;
@@ -47,6 +48,9 @@
     height: 1px;
     border: none;
     background-color: #d092ba;
+    position: absolute;
+    z-index: 1;
+    top: 520px;
   }
 
   &__content {
@@ -153,6 +157,9 @@
     height: 1px;
     border: none;
     background-color: #d092ba;
+    position: absolute;
+    z-index: 1;
+    top: 810px;
   }
 
   &__bottom {
