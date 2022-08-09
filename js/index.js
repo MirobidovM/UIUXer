@@ -1,4 +1,5 @@
 let toggleBtn = document.querySelector('.toggle');
+
 let elNav = document.querySelector('.header__nav');
 
 toggleBtn.addEventListener('click', () => {
